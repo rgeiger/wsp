@@ -1,0 +1,75 @@
+html {
+	background: #fff;
+}
+
+body {
+	background: #F5F5F5; 
+	max-width: 980px;
+	width: 100%; /*980px*/
+	height: 1000px; 
+	margin: auto;
+	padding: 0% 1.020408163265% 0% 1.020408163265%; /*10px*/
+	font-size: 1em; /*16px*/
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+	font-family: Imprima, sans-serif;
+}
+
+p, li {
+	font-weight: 100;
+}
+
+header {
+	width: 980px;
+	height: 200px;
+	background: #D3D3D3;
+	margin-top: 20px;
+}
+
+header h1 {
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+header h2 {
+	font-size: 18px;
+	margin: 20px 0px 0px 30px;
+	font-weight: 100;	
+}
+
+article {
+	width: 980px;
+	background: #DCDCDC;
+	padding-bottom: 30px;
+}
+
+article h1 {
+	background: darkgrey;
+	color: #000;
+	font-size: 24px;
+	margin: 10px 0px 0px 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-left: 30px solid;
+	border-color: maroon;
+}
+
+article h2 {
+	font-size: 18px;
+	margin-left: 30px;
+}
+
+article h3 {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+article p {
+	margin: 10px 60px 0px 60px;
+}
+
+
+
