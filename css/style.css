@@ -1,0 +1,53 @@
+/*
+main style for Spring Lake Elementary School
+*/
+
+html {
+	background: #fff;
+}
+
+body {
+	background: #F5F5F5; 
+	max-width: 980px;
+	width: 100%; /*980px*/
+	margin: auto;
+	font-size: 1em; /*16px*/
+}
+
+header {
+	width: 100%;
+	background: grey;
+}
+
+logo {
+}
+
+nav {
+}
+
+ul {
+}
+
+ul li {
+}
+
+section {
+	background: silver;
+}
+
+article {
+	background: lightgray;
+}
+
+ol {
+}
+
+ol li {
+}
+
+footer {
+	background: grey;
+}
+
+address {
+}
