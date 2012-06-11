@@ -3,40 +3,203 @@ main style for Spring Lake Elementary School
 */
 
 html {
-	background: #fff;
+	background: #grey;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+	font-family: helvetica, arial;
+}
+
+h1 {
+	font-size: 24px;
+	color: #993300;
+	padding: 15px 0px 18px 20px;
 }
 
 body {
 	background: #F5F5F5; 
 	max-width: 980px;
-	width: 100%; /*980px*/
+	width: 980px; /*980px*/
 	margin: auto;
 	font-size: 1em; /*16px*/
 }
 
 header {
+	width: 980px;
+	height: 110px;
+	background: #ffffff;
+}
+
+#logo {
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+nav ul{
+}
+
+nav ul li {
+	margin-top: 82px;
+	margin-right: 70px;
+	float: left;
+	font-size: 14px;
+}
+
+nav ul li a {
+	color: #6699cc
+}
+
+nav ul li a:hover {
+	color: #0066cc;
+	text-decoration: none;
+
+}
+
+nav ul #active {
+	border-bottom: 4px solid;
+	border-color: #ff6633;
+}
+
+#cta {
+	background: #ffffff;
+	background-image: url(../images/cta_bg.jpg);
+	background-repeat: no-repeat;	
+	width: 980px;
+	height: 330px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+
+#cta h2 {
+	font-size: 14px;
+	padding: 0px 0px 10px 20px;
+}
+
+#form {
+	position:relative;
+    top:-105px;
+    left: 540px;
+}
+
+#form div {
+	margin-top: 30px;
+}
+
+label {
+	font-family: Arial, Verdana; 
+	display: block; 
+	float: left; 
+	font-weight: bold; 
+	margin-right:10px; 
+	text-align: right; 
+	width: 100px; 
+	line-height: 25px; 
+	font-size: 15px; 
+	}
+	
+input{
+	font-family: Arial, Verdana; 
+	font-size: 15px; 
+	padding: 5px; 
+	border: 1px solid #b9bdc1; 
+	width: 300px; 
+	color: #ffffff;	
+	}
+	
+input:focus{
+	background-color:#3366cc;	
+	}
+	
+textarea {
+	height:150px;	
+	}
+
+.button {
+	background: #ff6633;
+	width: 100px;
+	margin-left: 322px;
+}
+
+.button:hover {
+	background: #ff3300;
+}
+
+	
+#sub_cta {
+	background: #ffffff;
 	width: 100%;
-	background: grey;
+	height: 325px;
 }
 
-logo {
+#sub_cta p {
+	margin: 0px 20px 10px 20px;
+	line-height: 20px;
 }
 
-nav {
+#sub_cta li {
+	margin: 0px 20px 10px 20px;
+
 }
 
-ul {
+#sub_cta article {
+	width: 310px;
+	height: 275px;
+	margin-right: 23px;
+	margin-top: 20px;
+	background: #ffffff;
+	border: 1px solid;
+	float: left;
 }
 
-ul li {
+#sub_cta article h2 {
+	margin: 0px 20px 10px 20px;
 }
 
-section {
-	background: silver;
+#sub_cta #news {
+	margin: 20px 0px 0px 0px;
+	background: #ffffff;
+	border: none;
+	border-top: 1px solid;
+	border-color: #ffffff;
 }
 
-article {
-	background: lightgray;
+#sub_cta #news a {
+	color: #ff6633;
+}
+
+#sub_cta #news li {
+	margin: 0px 20px 10px 20px;
+
+}
+
+#more_info {
+	background: #ffffff;
+	overflow: hidden;
+}
+
+#more_info article {
+	width: 470px;
+	height: 500px;
+	margin: 0px 0px 0px 0px;
+	float: left;
+}
+
+#more_info article p {
+	margin: 0px 20px 10px 20px;
+	line-height: 20px;
+}
+
+#more_info #about {
+	margin-right: 40px;
+	
+}
+
+#more_info #technology {
+	
 }
 
 ol {
@@ -46,8 +209,10 @@ ol li {
 }
 
 footer {
-	background: grey;
+	background: #339999;
+	clear: both;
 }
 
 address {
+	color: white;
 }
