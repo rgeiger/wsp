@@ -12,7 +12,8 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 
 h1 {
 	font-size: 24px;
-	color: #993300;
+	color: #ff6633;
+	background: #ffffff;
 	padding: 15px 0px 18px 20px;
 }
 
@@ -61,13 +62,11 @@ nav ul li a:hover {
 
 nav ul #active {
 	border-bottom: 4px solid;
-	border-color: #ff6633;
+	border-color: #669933;
 }
 
 #cta {
-	background: #ffffff;
-	background-image: url(../images/cta_bg.jpg);
-	background-repeat: no-repeat;	
+	background: #3366cc;
 	width: 980px;
 	height: 330px;
 	border-top: 1px solid;
@@ -80,7 +79,8 @@ nav ul #active {
 }
 
 #form {
-	position:relative;
+	 position:relative;
+	 width: 400px;
     top:-105px;
     left: 540px;
 }
@@ -97,7 +97,7 @@ label {
 	margin-right:10px; 
 	text-align: right; 
 	width: 100px; 
-	line-height: 25px; 
+	line-height: 10px; 
 	font-size: 15px; 
 	}
 	
@@ -106,7 +106,7 @@ input{
 	font-size: 15px; 
 	padding: 5px; 
 	border: 1px solid #b9bdc1; 
-	width: 300px; 
+	width: 200px; 
 	color: #ffffff;	
 	}
 	
@@ -119,13 +119,14 @@ textarea {
 	}
 
 .button {
-	background: #ff6633;
+	background: #669933;
 	width: 100px;
 	margin-left: 322px;
 }
 
 .button:hover {
-	background: #ff3300;
+	background: #99ff33;
+	cursor: pointer;
 }
 
 	
