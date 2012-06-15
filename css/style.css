@@ -262,10 +262,11 @@ textarea {
 
 #more_info {
 	background: #ffffff;
-	overflow: hidden;
+	
 }
 
 #more_info article {
+	background: #ffffff;
 	width: 470px;
 	height: 500px;
 	margin: 0px 0px 0px 0px;
