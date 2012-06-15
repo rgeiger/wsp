@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 }
 
 h1 {
-	font-size: 24px;
+	font-size: 20px;
 	color: #ff6633;
 	padding: 15px 0px 18px 20px;
 }
@@ -92,10 +92,10 @@ nav ul #active a {
 
 #left_cta h1 {
 	font-family: 'The Girl Next Door', cursive;
+	font-size: 24px;
 }
 
 #right_cta {
-	background: blue;
 	height: 330px;
 	width: 350px;
 	float: right;
@@ -104,13 +104,13 @@ nav ul #active a {
 
 #form {
 	float: right;
-	margin: 0px;
+	margin-right: 30px;
 }
 
 #form h1 {
-	background: white;
 	padding-right: 30px;
 	padding-bottom: 30px;
+	padding-left: 0px;
 }
 
 #form_input {
