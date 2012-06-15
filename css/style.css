@@ -40,6 +40,10 @@ header {
 	padding-left: 5px;
 }
 
+
+nav {
+}
+
 nav ul {
 }
 
@@ -100,9 +104,23 @@ nav ul #active a {
 	margin-right: 20px;
 }
 
+#form_input {
+	width: 212px;
+	margin: 0px;
+	padding: 20px;
+	background:#f7f7f7;
+	background:-moz-linear-gradient(90deg, #ccc, #fff); /* Firefox */
+	background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc)); /* Webkit */
+	border:1px solid #aaa;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-box-shadow:0 0 15px #aaa;
+	-webkit-box-shadow:0 0 15px #aaa;
+	
+}
+
 #form div {
 	margin: 0px;
-	padding-left: 130px;
 }
 
 label {
@@ -136,7 +154,6 @@ textarea {
 .button {
 	background: #669933;
 	width: 100px;
-	margin-left: 62px;
 }
 
 .button:hover {
