@@ -80,7 +80,7 @@ nav ul #active a {
 	text-transform: none;
 }
 
-#cta {
+#home_cta {
 	background: url(../images/cta_bg.jpg);
 	width: 980px;
 	height: 330px;
@@ -88,7 +88,7 @@ nav ul #active a {
 	
 }
 
-#cta h2 {
+#home_cta h2 {
 	color: #ffffff;
 	font-size: 14px;
 	padding: 0px 0px 10px 20px;
