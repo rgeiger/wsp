@@ -237,6 +237,7 @@ textarea {
 
 #sub_cta #news a:hover {
 	text-decoration: none;
+	color: #3399ff;
 }
 
 #sub_cta #news li {
@@ -273,6 +274,11 @@ ol {
 }
 
 ol li {
+	background-image: url(../images/list_bg.png);
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	height: 40px;
+	line-height: 30px
 }
 
 footer {
