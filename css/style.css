@@ -126,7 +126,7 @@ nav ul #active a {
 #form_input {
 	width: 212px;
 	margin: 0px 0px 0px 0px;
-	padding: 16px;
+	padding: 10px;
 	background:#f7f7f7;
 	background:-moz-linear-gradient(90deg, #ccc, #fff); /* Firefox */
 	background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc)); /* Webkit */
@@ -150,6 +150,7 @@ label {
 	width: 100px; 
 	line-height: 10px; 
 	font-size: 15px; 
+	margin-bottom: 5px;
 	}
 	
 input {
