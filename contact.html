@@ -7,6 +7,8 @@
 		<title>Spring Lake Elementary School</title>
 		<link rel="stylesheet" href="css/reset.css" type="text/css">
 		<link rel="stylesheet" href="css/style.css" type="text/css">
+	   <link rel="stylesheet" href="css/contact.css" type="text/css">
+		
 		<link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' 
 		type='text/css'>	
 	</head>
@@ -21,40 +23,95 @@
 	
 	<nav>
 		<ul>
-			<li id=active><a href="index.html">Home</a></li>
+			<li><a href="index.html">Home</a></li>
 			<li><a href="parent.html">Parent Connection</a></li>
 			<li><a href="calendar.html">Calendar</a></li>
 			<li><a href="faculty.html">Faculty</a></li>
 			<li><a href="supporters.html">Supporters</a></li>
-			<li><a href="contact.html">Contact Us</a></li>		
+			<li id=active><a href="contact.html">Contact Us</a></li>		
 		</ul>
 	</nav>
 </header>
 
-<section id=cta>
-	<div id=left_cta>
-	<h1>Title of every main nav link</h1>
-	<h2>sub heading 1</h2>
-	<h2>sub heading 2</h2>
-	</div>
+<section id=contact_cta>
+	<h1 id="page_heading">Please contact us with any questions or concerns</h1>
 	
+	</div>
+			<div id="contact_form_input">
+				<form method="get" action="mailto:example@example.com">
+				
+				<div id="input_group">
+					<div>
+						<label for="name_first">First Name</label>
+						<input type="text" name="name_first" id="name_first" />
+					</div>
+	
+					<div>
+						<label for="name_last">Last Name</label>
+						<input type="text" name="name_last" id="name_last" />
+					</div>				
+										
+					<div>
+						<label for="email">Email</label>
+						<input type="text" name="email" id="email" />
+					</div>
+				</div>
+					
+					
+			<div id="input_group">
+				<div>
+					<label for="name_first">Student Name</label>
+					<input type="text" name="name_first" id="name_first" />
+				</div>
+
+				<div>
+					<label for="name_last">Student Grade</label>
+					<input type="text" name="name_last" id="name_last" />
+				</div>				
+				
+				<div>
+					<label for="email">Contact Number</label>
+					<input type="text" name="email" id="email" />
+				</div>
+			</div>
+			
+				<div id="input_group">
+					<label for="message">Message</label>
+					<textarea rows="0" cols="50" name="message" id="message"></textarea>
+				</div>
+					
+					<div>
+						<input type="submit" name="submit"  class="button" value="SUBMIT"/>	
+					</div>				
+				</form>
+			</div>
 
 </section>
 
 <section id=sub_cta>	
 	<article>
-		<h1>heading</h1>
+		<h1>Quck Facts</h1>
+			<ol>
+				<li><span class="bold">Current Enrollment</span> - 820</li>
+				<li><span class="bold">Hours</span> - 7:40am to 2:20pm</li>
+				<li><span class="bold">Uniforms</span> - Red, white, or blue shirt; khaki pants, skirt, skorts or shorts</li>
+			</ol>
 	</article>
 	
-	<article>
-		<h1>heading</h1>
+	<article id="contact_information">
+		<h1>Contact Information</h1>
+		<p>Spring Lake Elementary School<br>
+		695 Orange Ave<br>
+		Altamonte Springs, FL 32714</p>
+		<p>Contact Number: 407-746-1650</p>
+		<p>Email: info@sles.edu</p> 
 	</article>
 
-	<article id=news>
-		<h1>heading</h1>
-			
-				
+	<article id=location>
+		<h1>Location Map</h1>
+		<iframe width="300" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?client=safari&amp;oe=UTF-8&amp;ie=UTF8&amp;q=spring+lake+elementary+school&amp;fb=1&amp;gl=us&amp;hq=spring+lake+elementary+school&amp;cid=0,0,12398291223456339994&amp;ll=28.65972,-81.409514&amp;spn=0.006295,0.006295&amp;t=m&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?client=safari&amp;oe=UTF-8&amp;ie=UTF8&amp;q=spring+lake+elementary+school&amp;fb=1&amp;gl=us&amp;hq=spring+lake+elementary+school&amp;cid=0,0,12398291223456339994&amp;ll=28.65972,-81.409514&amp;spn=0.006295,0.006295&amp;t=m&amp;source=embed" style="text-align:left">View Larger Map</a></small>
 	</article>
+	
 </section>
 
 <section id=more_info>
