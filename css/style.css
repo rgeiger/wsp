@@ -105,13 +105,14 @@ input{
 	font-family: Arial, Verdana; 
 	font-size: 15px; 
 	padding: 5px; 
-	border: 1px solid #b9bdc1; 
+	border: 1px solid #ffffff; 
 	width: 200px; 
-	color: #ffffff;	
+	color: #ffffff;
+	background:  #3366cc;	
 	}
 	
 input:focus{
-	background-color:#3366cc;	
+	background-color:#3399ff;	
 	}
 	
 textarea {
