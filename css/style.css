@@ -45,7 +45,6 @@ header {
 	padding-right: 30px;
 	padding-top: 5px;
 	padding-left: 5px;
-	filter:alpha(opacity=100); /* For IE8 and earlier */
 }
 
 
