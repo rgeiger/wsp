@@ -29,8 +29,7 @@ header {
 	opacity:0.7;
 	filter:alpha(opacity=40); /* For IE8 and earlier */
 	border-radius: 0px 20px 0px 0px;
-	-moz-box-shadow: 0 0 15px #aaa;
-	-webkit-box-shadow: 0 0 15px #aaa;
+	box-shadow: 0px 5px 10px #aaa;
 	width: 980px;
 	height: 140px;
 }
@@ -154,7 +153,7 @@ label {
 input {
 	font-family: Arial, Verdana; 
 	font-size: 20px; 
-	padding: 7px; 
+	padding: 4px; 
 	border: 1px solid #ffffff; 
 	border-radius: 7px;
 	width: 200px; 
@@ -181,6 +180,7 @@ textarea {
 	background-image:      -o-linear-gradient(top, #99ff33, #669933);
 	width: 100px;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	margin-top: 7px;
 }
 
 .button:hover {
