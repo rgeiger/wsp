@@ -67,13 +67,22 @@ nav ul #active {
 	background: url(../images/cta_bg.jpg);
 	width: 980px;
 	height: 330px;
-	border-top: 1px solid;
 }
 
 #cta h2 {
 	color: #ffffff;
 	font-size: 14px;
 	padding: 0px 0px 10px 20px;
+}
+
+#left_cta {
+	width: 500px;
+	height: 330px;
+	float: left;
+}
+
+#right_cta {
+	
 }
 
 #form {
@@ -101,7 +110,7 @@ input {
 	font-size: 15px; 
 	padding: 5px; 
 	border: 1px solid #ffffff; 
-	width: 150px; 
+	width: 200px; 
 	color: #ffffff;
 	background:  #3366cc;	
 	}
