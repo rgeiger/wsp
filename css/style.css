@@ -13,7 +13,6 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 h1 {
 	font-size: 24px;
 	color: #ff6633;
-	background: #ffffff;
 	padding: 15px 0px 18px 20px;
 }
 
@@ -69,7 +68,6 @@ nav ul #active {
 	width: 980px;
 	height: 330px;
 	border-top: 1px solid;
-	border-bottom: 1px solid;
 }
 
 #cta h2 {
@@ -79,21 +77,20 @@ nav ul #active {
 }
 
 #form {
-	background-color: #ffffff;
 	float: right;
+	margin: 0px;
 	margin-right: 20px;
 }
 
 #form div {
+	margin: 0px;
+	padding-left: 130px;
 }
 
 label {
 	font-family: Arial, Verdana; 
 	display: block; 
-	float: left; 
 	font-weight: bold; 
-	margin-right:10px; 
-	text-align: right; 
 	width: 100px; 
 	line-height: 10px; 
 	font-size: 15px; 
@@ -120,7 +117,7 @@ textarea {
 .button {
 	background: #669933;
 	width: 100px;
-	margin-left: 170px;
+	margin-left: 62px;
 }
 
 .button:hover {
