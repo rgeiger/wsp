@@ -80,6 +80,13 @@ nav ul #active a {
 	text-transform: none;
 }
 
+#cta {
+	background: #ffffff;
+	width: 980px;
+	height: 330px;
+	border-radius: 0px 0px 50px 0px;
+}
+
 #home_cta {
 	background: url(../images/cta_bg.jpg);
 	width: 980px;
