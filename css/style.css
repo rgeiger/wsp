@@ -261,6 +261,8 @@ textarea {
 }
 
 #more_info {
+	width: 980px;
+	height: 500px;
 	background: #ffffff;
 	
 }
