@@ -26,10 +26,9 @@ body {
 
 header {
 	background: white;
-	opacity:0.7;
+	opacity: .8;
 	filter:alpha(opacity=40); /* For IE8 and earlier */
-	border-radius: 0px 20px 0px 0px;
-	box-shadow: 0px 5px 10px #aaa;
+	border-radius: 0px 50px 0px 0px;
 	width: 980px;
 	height: 140px;
 }
@@ -55,7 +54,8 @@ nav ul {
 
 nav ul li {
 	margin-top: 82px;
-	margin-right: 60px;
+	margin-right: 30px;
+	margin-left: 20px;
 	float: left;
 	font-size: 16px;
 	font-weight: bold;
@@ -84,6 +84,8 @@ nav ul #active a {
 	background: url(../images/cta_bg.jpg);
 	width: 980px;
 	height: 330px;
+	border-radius: 0px 0px 50px 0px;
+	
 }
 
 #cta h2 {
@@ -191,7 +193,6 @@ textarea {
 
 	
 #sub_cta {
-	background: #ffffff;
 	width: 100%;
 	height: 325px;
 }
@@ -211,8 +212,8 @@ textarea {
 	height: 275px;
 	margin-right: 23px;
 	margin-top: 20px;
-	background: #ffffff;
-	border: 1px solid;
+	border-top: 1px solid;
+	border-color: #ffffff;
 	float: left;
 }
 
@@ -222,10 +223,10 @@ textarea {
 
 #sub_cta #news {
 	margin: 20px 0px 0px 0px;
-	background: #ffffff;
 	border: none;
 	border-top: 1px solid;
 	border-color: #ffffff;
+	
 }
 
 #sub_cta #news a {
