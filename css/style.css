@@ -180,7 +180,12 @@ textarea {
 }
 
 #sub_cta #news a {
-	color: #ff6633;
+	color: #1f7cd9;
+	font-size: 14px;
+}
+
+#sub_cta #news a:hover {
+	text-decoration: none;
 }
 
 #sub_cta #news li {
