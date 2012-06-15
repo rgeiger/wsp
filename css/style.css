@@ -63,7 +63,8 @@ nav ul li {
 }
 
 nav ul li a {
-	color: #6699cc
+	color: #6699cc;
+	text-decoration: none;
 }
 
 nav ul li a:hover {
