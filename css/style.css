@@ -40,7 +40,7 @@ header {
 	padding-left: 5px;
 }
 
-nav ul{
+nav ul {
 }
 
 nav ul li {
@@ -57,7 +57,6 @@ nav ul li a {
 nav ul li a:hover {
 	color: #0066cc;
 	text-decoration: none;
-
 }
 
 nav ul #active {
@@ -66,7 +65,7 @@ nav ul #active {
 }
 
 #cta {
-	background: #3366cc;
+	background: url(../images/cta_bg.jpg);
 	width: 980px;
 	height: 330px;
 	border-top: 1px solid;
@@ -74,20 +73,18 @@ nav ul #active {
 }
 
 #cta h2 {
+	color: #ffffff;
 	font-size: 14px;
 	padding: 0px 0px 10px 20px;
 }
 
 #form {
-	background: #ffffff;
-	position:relative;
-	width: 400px;
-   top:-105px;
-   left: 540px;
+	background-color: #ffffff;
+	float: right;
 }
 
 #form div {
-	margin-top: 30px;
+	margin: 30px 0px 0px 120px;
 }
 
 label {
@@ -102,7 +99,7 @@ label {
 	font-size: 15px; 
 	}
 	
-input{
+input {
 	font-family: Arial, Verdana; 
 	font-size: 15px; 
 	padding: 5px; 
@@ -112,7 +109,7 @@ input{
 	background:  #3366cc;	
 	}
 	
-input:focus{
+input:focus {
 	background-color:#3399ff;	
 	}
 	
@@ -201,8 +198,7 @@ textarea {
 	
 }
 
-#more_info #technology {
-	
+#more_info #technology {	
 }
 
 ol {
@@ -212,7 +208,7 @@ ol li {
 }
 
 footer {
-	background: #339999;
+	background: #3366cc;
 	clear: both;
 }
 
