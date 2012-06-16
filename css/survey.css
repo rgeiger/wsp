@@ -1,0 +1,27 @@
+/*
+main style for Spring Lake Elementary School
+*/
+
+html {
+	background: url('../images/html_bg.jpg') repeat;
+	
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+	font-family: helvetica, arial;
+}
+
+h1 {
+	font-size: 20px;
+	color: #ff6633;
+	padding: 15px 0px 18px 20px;
+}
+
+body {
+	max-width: 980px;
+	width: 980px; /*980px*/
+	margin: 10px auto;
+	font-size: 1em; /*16px*/
+	
+}
+
