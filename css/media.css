@@ -172,8 +172,8 @@ input {
 #sub_cta .round_number {
 	background: lightblue;
 	border-radius: 20px;
-	width: 20px;
-	height: 20px;
+	width: 10px;
+	height: 10px;
 	float: left;
 	color: #ffffff;
 	text-align: center;
@@ -196,6 +196,7 @@ input {
  
  #sub_cta ol li p {
  	line-height: 30px;
+ 	margin-left: 10px;
  }
  
  #sub_cta #news {
