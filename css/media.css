@@ -170,10 +170,11 @@ input {
 }
 
 #sub_cta .round_number {
+	visibility: visible;
 	background: lightblue;
 	border-radius: 20px;
-	width: 10px;
-	height: 10px;
+	width: 20px;
+	height: 20px;
 	float: left;
 	color: #ffffff;
 	text-align: center;
