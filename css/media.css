@@ -144,7 +144,6 @@ input {
 
 #sub_cta article {
 	width: 100%;
-	height: 150px;
 	margin: 0 auto;
 	margin-top: 20px;
 }
@@ -198,10 +197,6 @@ input {
  #sub_cta ol li p {
  	line-height: 30px;
  	margin-left: 10px;
- }
- 
- #sub_cta #news {
- 	height: 170px;
  }
  
  #sub_cta #news p {
