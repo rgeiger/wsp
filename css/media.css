@@ -253,7 +253,7 @@ footer p {
 
 /* Smartphones (landscape) (tested on iPod Touch - Landscape ----------- */
 @media only screen 
-and (min-width : 440px)
+and (min-width : 475px)
 and (max-width : 480px) {
 /* Styles */
 body {
@@ -491,7 +491,7 @@ footer p {
 }
 
 /*mobile styles - phone (tested on iPod Touch - Portrait ---------------- */
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:475px) {
 
 body {
 	width: 90%;
