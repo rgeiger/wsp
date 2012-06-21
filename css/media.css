@@ -253,22 +253,13 @@ footer p {
 
 }
 
-/* Smartphones (landscape) ----------- */
+/* Smartphones (landscape) (tested on iPod Touch - Landscape ----------- */
 @media only screen 
 and (min-width : 322px)
 and (max-width : 480px) {
 /* Styles */
-	body {
-		background: white;
-	}
-
-
-}
-
-/*mobile styles - phone*/
-@media only screen and (max-width:321px) {
-
 body {
+	background: silver;
 	width: 90%;
 	margin: 0 auto;
 	min-width: 320px;
@@ -321,7 +312,6 @@ nav ul li a {
 }
 
 /*--CTA styles --*/
-
 #home_cta {
 	background: none;
 	border-radius: 0px;	
@@ -402,7 +392,245 @@ input {
 	}
 
 /* article styles - sub CTA */
+#sub_cta {
+	height: 500px;
+}
 
+#sub_cta article {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#sub_cta h1 {
+	font-size: 12px;
+	padding: 5px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	font-weight: bold;
+}
+
+#sub_cta h2 {
+	font-size: 12px;
+	padding: 20px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	line-height: 0px;	
+}
+
+#sub_cta p {
+	font-size: 10px;
+	line-height: 20px;
+	margin: 10px 0px 0px 0px;
+}
+
+#sub_cta .round_number {
+	visibility: visible;
+	background: lightblue;
+	border-radius: 20px;
+	width: 20px;
+	height: 20px;
+	float: left;
+	color: #ffffff;
+	text-align: center;
+	line-height: 20px;	
+	margin: 5px;
+}
+
+#sub_cta ol {
+	background-image: none;
+   margin: 10px 0px 0px 0px;
+   padding: 0px;
+}
+#sub_cta ol li {
+   background: white;
+   height: 30px;
+   padding: 0px;
+   margin: 10px; 	
+   line-height: 10px
+ }
+ 
+ #sub_cta ol li p {
+ 	line-height: 30px;
+ 	margin-left: 10px;
+ }
+ 
+ #sub_cta #news p {
+ 	padding: 0px;
+ 	margin: 0px;
+ }
+ 
+ #sub_cta #news a {
+ 	font-size: 12px;
+ }
+
+
+#more_info {
+	width: 100%;
+	clear: both;
+}
+
+#more_info p {
+	font-size: 10px;
+}
+
+#more_info #about {
+	width: 100%;
+	height: auto;
+}
+
+#more_info #technology {
+	width: 100%;
+	height: auto;
+}
+
+/*footer styles*/
+footer {
+	clear:both;
+	overflow:hidden;
+	padding-bottom: 2em;
+}
+
+footer p {
+	margin-left: 5%;
+	font-size: 10px;
+}
+}
+
+/*mobile styles - phone (tested on iPod Touch - Portrait ---------------- */
+@media only screen and (max-width:321px) {
+
+body {
+	width: 90%;
+	margin: 0 auto;
+	min-width: 320px;
+	max-width: 480px;
+}
+
+h1 {
+	font-size: 14px;
+}
+
+/*header styles*/
+header {
+	height: auto;
+}
+
+#logo {
+	background: url(../images/logo_70.png);
+	height: 70px;
+	width: 70px;	
+}
+
+/*nav styles*/
+nav ul li {
+	border-bottom: 1px solid #000000;
+	width: 100%;
+	height: 20px;
+	float: left;
+	padding: 0%;
+	overflow: hidden;
+}
+nav {
+	clear: both;
+}
+nav ul{
+	width: 100%;
+	overflow: hidden;
+}
+
+nav ul li {
+	height: 30px;	
+	margin: 0px;
+	font-size: 10px;
+}
+
+nav ul li a {
+	text-align: center;
+	display: block;
+	line-height: 30px;
+	overflow: hidden;
+}
+
+/*--CTA styles --*/
+#home_cta {
+	background: none;
+	border-radius: 0px;	
+}
+
+#left_cta {
+	background: #6699cc;
+	width: 100%;
+	height: 68px;
+	border-radius: 0px 0px 7px 7px
+}
+
+#left_cta h1 {
+	background: #ffffff;
+	border-radius: 7px;
+	font-family: 'The Girl Next Door', cursive;
+	font-size: 12px;
+	padding: 5px 5px 5px 5px;
+	margin: 5px 5px 5px 5px;
+}
+
+#left_cta h2 {
+	font-size: 10px;
+	text-align: center;
+	margin: auto;
+	padding: 0px 0px 5px 0px;
+}
+
+#right_cta {
+	width: 100%;
+	height: auto;
+}
+
+#right_cta h1 {
+	padding: 10px 0px 5px 0px;
+	margin: 0px;
+}
+
+
+#form {
+	float: none;
+	padding: 0px;
+	margin: auto;
+}
+
+#form_input {
+	width: 100%;
+	margin: auto;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#form div {
+	width: 100%;
+}
+
+label {
+	font-family: Arial, Verdana; 
+	display: block; 
+	font-weight: bold; 
+	width: 100%; 
+	line-height: 10px; 
+	font-size: 12px; 
+	margin-bottom: 5px;
+}
+
+input {
+	font-family: Arial, Verdana; 
+	font-size: 14px; 
+	padding: 4px; 
+	border: 1px solid #ffffff; 
+	border-radius: 5px;
+	width: 80%; 
+	margin: auto;
+	margin-bottom: 7px;
+	color: #ffffff;
+	background:  #3366cc;	
+	}
+
+/* article styles - sub CTA */
 #sub_cta {
 	height: 500px;
 }
