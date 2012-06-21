@@ -4,7 +4,6 @@
 @media only screen and (min-width:769px) {
 	
 	body {
-		background: grey;
 	}
 
 }
@@ -13,7 +12,6 @@
 @media only screen and (min-width:481px) and (max-width:768px) {
 
 body {
-	background: lightgrey;
 	width: 90%;
 	margin: 0 auto;
 }
@@ -493,7 +491,7 @@ footer p {
 }
 
 /*mobile styles - phone (tested on iPod Touch - Portrait ---------------- */
-@media only screen and (max-width:440px) {
+@media only screen and (max-width:500px) {
 
 body {
 	width: 90%;
