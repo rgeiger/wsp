@@ -9,9 +9,10 @@
 }
 
 /*mobile styles - tablet*/
-@media only screen and (min-width:481px) and (max-width:768px) {
+@media only screen and (min-width:601px) and (max-width:768px) {
 
 body {
+	background: lightgrey;
 	width: 90%;
 	margin: 0 auto;
 }
@@ -253,10 +254,11 @@ footer p {
 
 /* Smartphones (landscape) (tested on iPod Touch - Landscape ----------- */
 @media only screen 
-and (min-width : 475px)
-and (max-width : 480px) {
+and (min-width : 476px)
+and (max-width : 600px) {
 /* Styles */
 body {
+	background: darkgrey;
 	width: 90%;
 	margin: 0 auto;
 	min-width: 322px;
@@ -494,6 +496,7 @@ footer p {
 @media only screen and (max-width:475px) {
 
 body {
+	background: white;
 	width: 90%;
 	margin: 0 auto;
 	min-width: 320px;
