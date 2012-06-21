@@ -255,11 +255,10 @@ footer p {
 
 /* Smartphones (landscape) (tested on iPod Touch - Landscape ----------- */
 @media only screen 
-and (min-width : 322px)
+and (min-width : 440px)
 and (max-width : 480px) {
 /* Styles */
 body {
-	background: silver;
 	width: 90%;
 	margin: 0 auto;
 	min-width: 322px;
@@ -282,21 +281,24 @@ header {
 }
 
 /*nav styles*/
-nav ul li {
-	float: left;
-	padding: 0ox;
-	overflow: hidden;
-	margin: 0px;
-	margin-right: 20px;
-	font-size: 8px;
-	
-}
-
 nav {
 	clear: both;
 }
 nav ul{
 	overflow: hidden;
+}
+
+nav ul li {
+	float: left;
+	padding: 0ox;
+	overflow: hidden;
+	margin: 0px;
+	margin-right: 16px;
+	font-size: 12px;	
+}
+
+nav ul li:last-child {
+	margin-right: 0px;
 }
 
 nav ul li a {
@@ -491,7 +493,7 @@ footer p {
 }
 
 /*mobile styles - phone (tested on iPod Touch - Portrait ---------------- */
-@media only screen and (max-width:321px) {
+@media only screen and (max-width:440px) {
 
 body {
 	width: 90%;
