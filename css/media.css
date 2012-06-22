@@ -3,22 +3,31 @@
 /*desktop styles*/
 @media only screen and (min-width:769px) {
 	
-	body {
-	}
-
 }
 
 /*mobile styles - tablet*/
 @media only screen and (min-width:601px) and (max-width:768px) {
 
 body {
-	background: lightgrey;
+	background: lightblue;
 	width: 90%;
 	margin: 0 auto;
 }
 
 h1 {
-	font-size: 22px;
+	font-size: 18px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+p {
+	font-size: 12px;
 }
 
 /*header styles*/
@@ -26,35 +35,21 @@ header {
 	height: auto;
 }
 
-#logo {
-	background: url(../images/logo_70.png);
-	height: 70px;
-	width: 70px;	
-}
-
 /*nav styles*/
-
 nav {
+	clear: both;
 }
-
 nav ul{
-	width: 100%;
-	margin-left: 10px;
-	;
 	overflow: hidden;
 }
 
 nav ul li {
-	height: 20px;
-	margin: 0px 4.285714285714% 20px 0px;
 	float: left;
-	padding: 0%;
-	font-size: 14px;
+	padding: 0ox;
 	overflow: hidden;
-}
-
-nav ul li:last-child {
-	margin-right: 0px;
+	margin: 0px;
+	margin-right: 16px;
+	font-size: 12px;	
 }
 
 nav ul li a {
@@ -64,44 +59,11 @@ nav ul li a {
 	overflow: hidden;
 }
 
+
 /*--CTA styles --*/
 
 #home_cta {
-	background: none;
-	border-radius: 0px;	
-}
-
-#left_cta {
-	background: #6699cc;
-	width: 100%;
-	height: 68px;
-	border-radius: 0px 0px 7px 7px
-}
-
-#left_cta h1 {
-	background: #ffffff;
-	border-radius: 7px;
-	font-family: 'The Girl Next Door', cursive;
-	font-size: 12px;
-	padding: 5px 5px 5px 5px;
-	margin: 5px 5px 5px 5px;
-}
-
-#left_cta h2 {
-	font-size: 10px;
-	text-align: center;
-	margin: auto;
-	padding: 0px 0px 5px 0px;
-}
-
-#right_cta {
-	width: 100%;
-	height: auto;
-}
-
-#right_cta h1 {
-	padding: 10px 0px 5px 0px;
-	margin: 0px;
+	background: lightblue;
 }
 
 #form {
@@ -156,26 +118,6 @@ input {
 	margin-top: 20px;
 }
 
-#sub_cta h1 {
-	font-size: 12px;
-	padding: 5px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	font-weight: bold;
-}
-
-#sub_cta h2 {
-	font-size: 12px;
-	padding: 20px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	line-height: 0px;	
-}
-
-#sub_cta p {
-	font-size: 10px;
-	line-height: 20px;
-	margin: 10px 0px 0px 0px;
-}
-
 #sub_cta .round_number {
 	visibility: visible;
 	background: lightblue;
@@ -203,39 +145,9 @@ input {
    line-height: 10px
  }
  
- #sub_cta ol li p {
- 	line-height: 30px;
- }
- 
- #sub_cta #news {
- }
- 
- #sub_cta #news p {
- 	padding: 0px;
- 	margin: 0px;
- }
- 
- #sub_cta #news a {
- 	font-size: 12px;
- }
-
 #more_info {
 	width: 100%;
 	clear: both;
-}
-
-#more_info p {
-	font-size: 10px;
-}
-
-#more_info #about {
-	width: 100%;
-	height: auto;
-}
-
-#more_info #technology {
-	width: 100%;
-	height: auto;
 }
 
 /*footer styles*/
@@ -272,12 +184,6 @@ h1 {
 /*header styles*/
 header {
 	height: auto;
-}
-
-#logo {
-	background: url(../images/logo_70.png);
-	height: 70px;
-	width: 70px;	
 }
 
 /*nav styles*/
@@ -510,12 +416,6 @@ h1 {
 /*header styles*/
 header {
 	height: auto;
-}
-
-#logo {
-	background: url(../images/logo_70.png);
-	height: 70px;
-	width: 70px;	
 }
 
 /*nav styles*/
