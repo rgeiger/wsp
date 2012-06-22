@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" />
 
 	<head>
-		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
 		<title>Spring Lake Elementary School</title>
-		<link rel="stylesheet" href="css/reset.css" type="text/css">
-		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="css/reset.css" type="text/css" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<link rel="stylesheet" href="css/media.css" type="text/css" />
 		<link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' 
-		type='text/css'>	
+		type='text/css' />	
 	</head>
 	
 <body>
 
 <header>
-	
-	<div id=logo>
-		<a href="index.html"><img src="images/logo.png" alt="logo" width="130" height="130"></a>
+	<div id="logo">
+		<a href="index.html"></a>
 	</div>
 	
 	<nav>
 		<ul>
-			<li id=active><a href="index.html">Home</a></li>
-			<li><a href="parent.html">Parent Connection</a></li>
+			<li><a href="index.html">Home</a></li>
+			<li id="active"><a href="parent.html">Parents</a></li>
 			<li><a href="calendar.html">Calendar</a></li>
 			<li><a href="faculty.html">Faculty</a></li>
 			<li><a href="supporters.html">Supporters</a></li>
@@ -31,39 +32,90 @@
 	</nav>
 </header>
 
-<section id=cta>
+<section id="parents_cta">
 	<div id=left_cta>
-	<h1>Title of every main nav link</h1>
-	<h2>sub heading 1</h2>
-	<h2>sub heading 2</h2>
+		<h1>Parent Connection</h1>
 	</div>
 	
+	<div id="right_cta">
+		<h2>Free newsletter Sign Up</h2>			
+		<div id="form">
+			<form method="get" action="mailto:example@example.com">
+			
+			<div id="form_input">
+				<div>
+					<label for="name_first">First Name</label>
+					<input type="text" name="name_first" id="name_first" />
+				</div>
 
+				<div>
+					<label for="name_last">Last Name</label>
+					<input type="text" name="name_last" id="name_last" />
+				</div>				
+				
+				<div>
+					<label for="email">Email</label>
+					<input type="text" name="email" id="email" />
+				</div>
+				
+				<div>
+					<input type="submit" name="submit"  class="button" value="SUBMIT" />	
+				</div>
+			</div>							
+			</form>
+		</div>
+	</div>
 </section>
 
 <section id=sub_cta>	
 	<article>
-		<h1>heading</h1>
+		<h2>Parent Online Resources</h2>
+			<h3>Bright Beginnings</h3>
+			<p><a href="">Bright Beginnings</a> is a website sponsored by the Florida Department of Education as a resource
+			designed to help parents get involved in their child's education.
+			</p>
 	</article>
 	
 	<article>
-		<h1>heading</h1>
+		<h2>FCAT Practice</h2>
+			<ol>
+				<li><span class="round_number">1</span><p><span class="bold">FCAT Explorer</span> - <a href="">fcat explorer.com</a> online practice tool.</p></li>
+				<li><span class="round_number">2</span><p><span class="bold">Math</span> - <a href="">eduplace.com</a> math practice and activities.</p></li>
+				<li><span class="round_number">3</span><p><span class="bold">Reading</span> - <a href="">just read florida.com</a> tips to help promote literacy skills.</p></li>
+				<li><span class="round_number">3</span><p><span class="bold">Science</span> - <a href="">National Geographic for kids</a> educational activities and resources.</p></li>
+			</ol>
 	</article>
 
 	<article id=news>
-		<h1>heading</h1>
-			
+		<h2>SCPS</h2>
+			<h3>Application</h3>
+				<p>All Dividend volunteers are required to re-activate their applications each year. If you cannot register online, paper applications are available at Spring Lake Elementary or at the Educational Support Center.
+				</p>
+				<p>Click <a href="">HERE</a> to go to the application page.</p>
 				
 	</article>
 </section>
 
-<section id=more_info>
-	<article id=about>
-		<h1>heading</h1>
+<section id="more_info">
+	<article id="about">
+		<h2>FCAT Explorer</h2>
+			<h3>What is FCAT 2.0?</h3>
+			<p>Want to know more about the tests your students will be taking? This short video explains the ins and outs of FCAT, FCAT 2.0, and the new end-of-course exams. This video also answers some of the most frequently asked questions from parents. Take a look!
+				<iframe width="95%" height="60%" src="http://www.youtube.com/embed/V1szkxZP6ck?rel=0" frameborder="0" allowfullscreen></iframe>
+			</p>
 	</article>
 	
-	<article id=technology>
-		<h1>heading</h1>
+	<article id="technology">
+		<h2>Timez Attack</h2>
+		<h3>Great new FREE! multiplication game.</h3>
+		<p>Step 1. Go to www.bigbrainz.com and click on the choice for School Use.</p>
+		<p>Step 2. Select either Windows or Mac to download.  Follow the prompts to Run, 
+		as well as the Set Up prompts.</p>
+		<p>Step 3. The program will launch and the Timez Attakk icon will appear on your desktop.  Click Finish and then wait for the program to Download and Unpack.</p>
+		<p>Step 4. The Timez Attack Launcher will come up; select School and Paid when prompted</p>
+		<p>Step 5. Next, select the Country, State, Country, School and password information.  Your child's password is <span class="bold">sles</span> (all lowercase).</p>
+		<p>Step 6. After you log-in, select the students's teacher (class) name; then select the student's name.</p>
+		</p>
 	</article>
 </section>
 
@@ -71,8 +123,8 @@
 	<address>
 		<p>Spring Lake Elementary School</p>
 		<p>695 Orange Avenue Altamonte Springs, FL</p>
-		<p>Phone - (407) 746-1650 &nbsp; Email - info@domain.edu 
-		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; privacy policy | Terms of use</p>
+		<p>Phone - (407) 746-1650 | <a href="mailto:info@domain.edu">Email - info@domain.edu</a></p>
+		<p>privacy policy | Terms of use</p>
 	</address>
 </footer>
 
