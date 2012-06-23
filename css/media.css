@@ -8,177 +8,33 @@
 /*mobile styles - tablet*/
 @media only screen and (min-width:601px) and (max-width:768px) {
 
-body {
-	background: lightblue;
-	width: 90%;
-	margin: 0 auto;
-}
-
 h1 {
-	font-size: 18px;
-}
-
-h2 {
 	font-size: 16px;
 }
 
-h3 {
+h2 {
 	font-size: 14px;
 }
 
+h3 {
+	font-size: 12px;
+}
+
 p {
+	font-size: 10px;
+}
+
+a {
+	font-size: 10px;
+}
+
+.green {
 	font-size: 12px;
 }
 
 /*header styles*/
 header {
 	height: auto;
-}
-
-/*nav styles*/
-nav {
-	clear: both;
-}
-nav ul{
-	overflow: hidden;
-}
-
-nav ul li {
-	float: left;
-	padding: 0ox;
-	overflow: hidden;
-	margin: 0px;
-	margin-right: 16px;
-	font-size: 12px;	
-}
-
-nav ul li a {
-	text-align: center;
-	display: block;
-	line-height: 30px;
-	overflow: hidden;
-}
-
-
-/*--CTA styles --*/
-
-#home_cta {
-	background: lightblue;
-}
-
-#form {
-	float: none;
-	padding: 0px;
-	margin: auto;
-}
-
-#form_input {
-	width: 100%;
-	margin: auto;
-	padding-right: 0px;
-	padding-left: 0px;
-}
-
-#form div {
-	width: 100%;
-}
-
-label {
-	font-family: Arial, Verdana; 
-	display: block; 
-	font-weight: bold; 
-	width: 100%; 
-	line-height: 10px; 
-	font-size: 12px; 
-	margin-bottom: 5px;
-}
-
-input {
-	font-family: Arial, Verdana; 
-	font-size: 14px; 
-	padding: 4px; 
-	border: 1px solid #ffffff; 
-	border-radius: 5px;
-	width: 80%; 
-	margin: auto;
-	margin-bottom: 7px;
-	color: #ffffff;
-	background:  #3366cc;	
-	}
-
-/* article styles - sub CTA */
-
-#sub_cta {
-	height: 500px;
-}
-
-#sub_cta article {
-	width: 100%;
-	margin: 0 auto;
-	margin-top: 20px;
-}
-
-#sub_cta .round_number {
-	visibility: visible;
-	background: lightblue;
-	border-radius: 20px;
-	width: 20px;
-	height: 20px;
-	float: left;
-	color: #ffffff;
-	text-align: center;
-	line-height: 20px;	
-	margin: 5px;
-}
-
-#sub_cta ol {
-	background-image: none;
-   margin: 10px 0px 0px 0px;
-   padding: 0px;
-}
-
-#sub_cta ol li {
-   background: white;
-   height: 30px;
-   padding: 0px;
-   margin: 10px; 	
-   line-height: 10px
- }
- 
-#more_info {
-	width: 100%;
-	clear: both;
-}
-
-/*footer styles*/
-footer {
-	clear:both;
-	overflow:hidden;
-	padding-bottom: 2em;
-}
-
-footer p {
-	margin-left: 5%;
-	font-size: 10px;
-}
-
-}
-
-/* Smartphones (landscape) (tested on iPod Touch - Landscape ----------- */
-@media only screen 
-and (min-width : 476px)
-and (max-width : 600px) {
-/* Styles */
-body {
-	background: darkgrey;
-	width: 90%;
-	margin: 0 auto;
-	min-width: 322px;
-	max-width: 480px;
-}
-
-h1 {
-	font-size: 14px;
 }
 
 /*header styles*/
@@ -208,6 +64,7 @@ nav ul li:last-child {
 }
 
 nav ul li a {
+	font-size: 14px;
 	text-align: center;
 	display: block;
 	line-height: 30px;
@@ -215,44 +72,181 @@ nav ul li a {
 }
 
 /*--CTA styles --*/
+
+#home_cta {
+	background: url('../images/school_bg.jpg') no-repeat	
+}
+
+#home_cta p {
+	margin: 0;
+	padding: 0;
+	line-height: 20px;
+}
+
+#home_cta .transparent {
+	width: 300px;
+	height: 43px;
+	background-color: rgb(0,0,0); opacity: .7;
+	border-radius: 7px;
+} 
+
+
+
+/* article styles - sub CTA */
+
+#sub_cta {
+	height: 500px;
+}
+
+#sub_cta article {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#sub_cta .round_number {
+	visibility: visible;
+	background: lightblue;
+	border-radius: 20px;
+	width: 20px;
+	height: 20px;
+	float: left;
+	color: #ffffff;
+	text-align: center;
+	line-height: 20px;	
+	margin: 5px;
+}
+
+#sub_cta ol {
+	background-image: none;
+   margin: 10px 0px 0px 0px;
+   padding: 0px;
+}
+
+#sub_cta ol li {
+   background: white;
+   height: 30px;
+   padding: 0px;
+   margin: 10px; 	
+   line-height: 10px
+ }
+ 
+#more_info {
+	width: 100%;
+	clear: both;
+}
+
+#more_info #directions p {
+	font-size: 16px;
+}
+
+/*footer styles*/
+footer {
+	clear:both;
+	overflow:hidden;
+	padding-bottom: 2em;
+}
+
+footer p {
+	margin-left: 5%;
+	font-size: 10px;
+}
+
+}
+
+/* Smartphones (landscape) (tested on iPod Touch - Landscape ----------- */
+@media only screen 
+and (min-width : 476px)
+and (max-width : 600px) {
+/* Styles */
+
+h1 {
+	font-size: 16px;
+}
+
+h2 {
+	font-size: 14px;
+}
+
+h3 {
+	font-size: 12px;
+}
+
+p {
+	font-size: 10px;
+}
+
+a {
+	font-size: 10px;
+}
+
+.green {
+	font-size: 12px;
+}
+
+/*header styles*/
+header {
+	height: auto;
+}
+
+/*header styles*/
+header {
+	height: auto;
+}
+
+/*nav styles*/
+nav {
+	clear: both;
+}
+nav ul{
+	overflow: hidden;
+}
+
+nav ul li {
+	float: left;
+	padding: 0ox;
+	overflow: hidden;
+	margin: 0px;
+	margin-right: 16px;
+	font-size: 12px;	
+}
+
+nav ul li:last-child {
+	margin-right: 0px;
+}
+
+nav ul li a {
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	line-height: 30px;
+	overflow: hidden;
+}
+
+/*--CTA styles --*/
+
 #home_cta {
 	background: none;
-	border-radius: 0px;	
+	border-radius: 0;
+	height: auto;
 }
 
 #left_cta {
-	background: #6699cc;
 	width: 100%;
-	height: 68px;
-	border-radius: 0px 0px 7px 7px
-}
-
-#left_cta h1 {
-	background: #ffffff;
-	border-radius: 7px;
-	font-family: 'The Girl Next Door', cursive;
-	font-size: 12px;
-	padding: 5px 5px 5px 5px;
-	margin: 5px 5px 5px 5px;
-}
-
-#left_cta h2 {
-	font-size: 10px;
-	text-align: center;
-	margin: auto;
-	padding: 0px 0px 5px 0px;
+	background: #3366cc;
+	margin: 0;
+	float: none;	
 }
 
 #right_cta {
 	width: 100%;
-	height: auto;
+	margin: 0;
+	float: none;
 }
 
-#right_cta h1 {
-	padding: 10px 0px 5px 0px;
-	margin: 0px;
+#parents_cta {
+	background: #ffffff;
 }
-
 
 #form {
 	float: none;
@@ -305,24 +299,8 @@ input {
 	margin-top: 20px;
 }
 
-#sub_cta h1 {
-	font-size: 12px;
-	padding: 5px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	font-weight: bold;
-}
-
-#sub_cta h2 {
-	font-size: 12px;
-	padding: 20px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	line-height: 0px;	
-}
-
-#sub_cta p {
+#sub_cta article a {
 	font-size: 10px;
-	line-height: 20px;
-	margin: 10px 0px 0px 0px;
 }
 
 #sub_cta .round_number {
@@ -340,77 +318,62 @@ input {
 
 #sub_cta ol {
 	background-image: none;
-   margin: 10px 0px 0px 0px;
-   padding: 0px;
+   margin: 10px 0 0 0;
+   padding: 0;
 }
 #sub_cta ol li {
    background: white;
    height: 30px;
    padding: 0px;
    margin: 10px; 	
-   line-height: 10px
- }
- 
- #sub_cta ol li p {
- 	line-height: 30px;
- 	margin-left: 10px;
- }
- 
- #sub_cta #news p {
- 	padding: 0px;
- 	margin: 0px;
- }
- 
- #sub_cta #news a {
- 	font-size: 12px;
- }
-
-
-#more_info {
-	width: 100%;
-	clear: both;
 }
 
-#more_info p {
+#sub_cta ol li p {
 	font-size: 10px;
+	line-height: 30px;
 }
-
-#more_info #about {
+   
+#more_info article {
 	width: 100%;
-	height: auto;
+	float: none;
+	height: auto;	
 }
 
-#more_info #technology {
-	width: 100%;
-	height: auto;
+#more_info article p {
+	line-height: 12px;
 }
 
-/*footer styles*/
-footer {
-	clear:both;
-	overflow:hidden;
-	padding-bottom: 2em;
+#more_info #directions p {
+	font-size: 14px;
 }
 
-footer p {
-	margin-left: 5%;
-	font-size: 10px;
-}
 }
 
 /*mobile styles - phone (tested on iPod Touch - Portrait ---------------- */
 @media only screen and (max-width:475px) {
 
-body {
-	background: white;
-	width: 90%;
-	margin: 0 auto;
-	min-width: 320px;
-	max-width: 480px;
+h1 {
+	font-size: 16px;
 }
 
-h1 {
+h2 {
 	font-size: 14px;
+}
+
+h3 {
+	font-size: 12px;
+}
+
+p {
+	font-size: 10px;
+}
+
+a {
+	font-size: 10px;
+}
+
+.green {
+	font-size: 12px;
 }
 
 /*header styles*/
@@ -427,9 +390,7 @@ nav ul li {
 	padding: 0%;
 	overflow: hidden;
 }
-nav {
-	clear: both;
-}
+
 nav ul{
 	width: 100%;
 	overflow: hidden;
@@ -437,11 +398,12 @@ nav ul{
 
 nav ul li {
 	height: 30px;	
-	margin: 0px;
-	font-size: 10px;
+	margin: 0;
+	font-size: 14px;
 }
 
 nav ul li a {
+	font-size: 12px;
 	text-align: center;
 	display: block;
 	line-height: 30px;
@@ -449,44 +411,29 @@ nav ul li a {
 }
 
 /*--CTA styles --*/
+
 #home_cta {
 	background: none;
-	border-radius: 0px;	
+	border-radius: 0;
+	height: auto;
 }
 
 #left_cta {
-	background: #6699cc;
 	width: 100%;
-	height: 68px;
-	border-radius: 0px 0px 7px 7px
-}
-
-#left_cta h1 {
-	background: #ffffff;
-	border-radius: 7px;
-	font-family: 'The Girl Next Door', cursive;
-	font-size: 12px;
-	padding: 5px 5px 5px 5px;
-	margin: 5px 5px 5px 5px;
-}
-
-#left_cta h2 {
-	font-size: 10px;
-	text-align: center;
-	margin: auto;
-	padding: 0px 0px 5px 0px;
+	background: #3366cc;
+	margin: 0;
+	float: none;	
 }
 
 #right_cta {
 	width: 100%;
-	height: auto;
+	margin: 0;
+	float: none;
 }
 
-#right_cta h1 {
-	padding: 10px 0px 5px 0px;
-	margin: 0px;
+#parents_cta {
+	background: #ffffff;
 }
-
 
 #form {
 	float: none;
@@ -539,24 +486,8 @@ input {
 	margin-top: 20px;
 }
 
-#sub_cta h1 {
-	font-size: 12px;
-	padding: 5px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	font-weight: bold;
-}
-
-#sub_cta h2 {
-	font-size: 12px;
-	padding: 20px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	line-height: 0px;	
-}
-
-#sub_cta p {
+#sub_cta article a {
 	font-size: 10px;
-	line-height: 20px;
-	margin: 10px 0px 0px 0px;
 }
 
 #sub_cta .round_number {
@@ -574,63 +505,34 @@ input {
 
 #sub_cta ol {
 	background-image: none;
-   margin: 10px 0px 0px 0px;
-   padding: 0px;
+   margin: 10px 0 0 0;
+   padding: 0;
 }
 #sub_cta ol li {
    background: white;
    height: 30px;
    padding: 0px;
    margin: 10px; 	
-   line-height: 10px
- }
- 
- #sub_cta ol li p {
- 	line-height: 30px;
- 	margin-left: 10px;
- }
- 
- #sub_cta #news p {
- 	padding: 0px;
- 	margin: 0px;
- }
- 
- #sub_cta #news a {
- 	font-size: 12px;
- }
-
-
-#more_info {
-	width: 100%;
-	clear: both;
 }
 
-#more_info p {
+#sub_cta ol li p {
 	font-size: 10px;
+	line-height: 30px;
 }
-
-#more_info #about {
+   
+#more_info article {
 	width: 100%;
-	height: auto;
+	float: none;
+	height: auto;	
 }
 
-#more_info #technology {
-	width: 100%;
-	height: auto;
+#more_info article p {
+	line-height: 12px;
 }
 
-/*footer styles*/
-footer {
-	clear:both;
-	overflow:hidden;
-	padding-bottom: 2em;
+#more_info #directions p {
+	font-size: 12px;
 }
-
-footer p {
-	margin-left: 5%;
-	font-size: 10px;
-}
-
 }
 
 
